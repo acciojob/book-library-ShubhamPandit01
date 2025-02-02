@@ -4,10 +4,60 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		* {
+		  margin: 0;
+		  padding: 0;
+		  box-sizing: border-box;
+		}
+		body {
+		  background-color: #f8f8f8;
+		  font-family: Arial, sans-serif;
+		  padding: 20px;
+		}
+		.book-library{
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			background-color:#ffffff;
+			gap:50px;
+			h3{
+				background-color:#2ecc71;
+				text-align:center;
+			}
+		}
+		.book{
+			img{
+				width:200px;
+			}
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class='book-library'>
+		<h2>Book Library</h2>
+		<div class='book'>
+			<img src='https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg'>
+			<h2>Spy in the Amber</h2>
+			<p>By Manohar Malgonkar</p>
+			<h3>Rs. 299</h3>
+		</div>
+		<div class='book'>
+			<img src='https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg'>
+			<h2>Sacred Games</h2>
+			<p>by Vikram Chandra</p>
+			<h3>Rs. 199</h3>
+		</div>
+		<div class='book'>
+			<img src='https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg'>
+			<p>Byomkesh Bakshi</p>
+			<p>by Sharadindu Bandyopadhyay</p>
+			<h3>Rs. 249</h3>
+		</div>
+		
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
